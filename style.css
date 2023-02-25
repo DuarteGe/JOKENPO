@@ -1,0 +1,18 @@
+body{
+    font-weight: bolder;
+
+}
+.btn{
+    background-color: skyblue;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    text-align: center;
+}
+.btn:hover{
+    cursor:pointer;
+    background-color: aquamarine;
+}
+.btn:active{
+    background-color: aqua;
+}
