@@ -9,8 +9,14 @@
 </head>
 <body>
     <h2>Escolha um:</h2>
-    <div id="pedra" class="btn" value="1"><p>Pedra</p></div>
-    <div id="papel" class="btn" value="papel"><p>Papel</p></div>
+    <div id="pedra" class="btn" >
+        <input type="button" name="pedra" value="Pedra" onclick="escolha(pedra.value)">
+    </div>
+
+    <div id="papel" class="btn">
+        <input type="button" value="Papel">
+    </div>
+    
     <div id="tesoura" class="btn" value="tesoura"><p>Tesoura</p></div>
      
     <div id="result"></div>

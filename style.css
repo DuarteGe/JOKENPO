@@ -2,6 +2,9 @@ body{
     font-weight: bolder;
 
 }
+body.input{
+    background: none;
+}
 .btn{
     background-color: skyblue;
     width: 60px;
